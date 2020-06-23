@@ -53,7 +53,7 @@ function UserForm({ onSubmit }) {
     <form onSubmit={handleSubmit} >
 
       <div className="input-block">
-        <label htmlFor="telefone">Celular</label>
+        <label htmlFor="telefone">Celular (DD+numero)</label>
         <input
           name="telefone"
           id="telefone"
